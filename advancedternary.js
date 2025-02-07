@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')();
 let priceInput = prompt('The input price: ');
-let price = Number(priceInput);
+let price = parseFloat(priceInput);
 // checking whether the number is valid or not
 if(isNaN(price)) {
     console.log('Invalid number');

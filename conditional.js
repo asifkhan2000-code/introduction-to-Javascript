@@ -1,9 +1,9 @@
 const prompt = require('prompt-sync')();
 
 const personWeight = prompt('Enter your weight in kg: ');
-const weight = Number(personWeight)
+const weight = parseFloat(personWeight)
 const personHeight = prompt('Enter your height in meters: ');
-const height = Number(personHeight)
+const height = parseFloat(personHeight)
 
 if (isNaN(weight) || isNaN(height) || weight <= 0 || height <= 0) {
     console.log('Invalid input. Please enter valid positive numbers.');

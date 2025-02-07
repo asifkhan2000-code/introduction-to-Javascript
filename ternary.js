@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')();
 
 const ageInput = prompt('Enter your age: ');
-const age = Number(ageInput);
+const age = parseFloat(ageInput);
 
 if (isNaN(age)) {
     console.log('Invalid age. Please enter a number.');
@@ -10,7 +10,7 @@ if (isNaN(age)) {
 }
 
 let priceInput = prompt('Enter the price of the product: ');
-let price = Number(priceInput);
+let price = parseFloat(priceInput);
 
 if (isNaN(price)) {
     console.log('Invalid price. Please enter a number.');

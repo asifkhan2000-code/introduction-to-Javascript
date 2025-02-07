@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')();
 
-const money = prompt("Enter amount of money you have: ");
+const money = parseFloat(prompt("Enter amount of money you have: "));
 
 if (money > 500) {
     console.log('Rich Kid');
@@ -10,7 +10,7 @@ if (money > 500) {
     } 
     else {
         if (money > 0 && money < 300) {
-            console.log('Gorid shala');
+            console.log('Gorib shala');
         }
         else {
             console.log('Tore dhar dite parum nah');
