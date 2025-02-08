@@ -6,7 +6,7 @@ else {
     console.log('tumi amader noyon er moni')
 }
 
-let userId = 10;
-console.log(!!userId);
-console.log(!userId);
-console.log(userId);
+let username = 'ami ekta string';
+console.log(!!username);
+console.log(!username);
+console.log(username);
